@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 ">
+        <meta description="Ta strona powstała na potrzebę zadania z html i css.">
+        <meta keywords="bootstrap, html, css">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style/main.css">
+        <title>My Bootstrap page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">CodersTrust</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarNavAltMenu" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>  
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMenu">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Strona główna</a>
+                        <a class="nav-item nav-link" href="#offer">Oferta</a>
+                        <a class="nav-item nav-link" href="contact.html">Kontakt</a>
+                        <a class="nav-item nav-link disabled" href="#">Promocje</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="advert">
+            <div class="container advert__text">
+                <h1>Palety drewniane</h1>
+                <h2>Najwyższa jakość palet drewnianych</h2>
+                <button class="btn btn-dark">Poznaj naszą ofertę</button>
+            </div>
+        </section>
+
+        <section id="offer">
+            <div class="container offer__cards">
+                <div class="card">
+                    <img class="card-img-top" src="https://picsum.photos/200/100" alt="Zdjęcie produktu">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Tutaj może być opis produktu.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://picsum.photos/200/100" alt="Zdjęcie produktu">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Tutaj może być opis produktu.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://picsum.photos/200/100" alt="Zdjęcie produktu">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Tutaj może być opis produktu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <h4>Wszelkie prawa zastrzeżone</h4>
+            </div>
+        </footer>
+
+
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
